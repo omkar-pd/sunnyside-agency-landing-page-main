@@ -97,14 +97,14 @@
   color: hsl(167, 40%, 24%) !important;
    height: 600px;
    max-height: 600px;
-   background: url(/images/desktop/image-graphic-design.jpg);
+   background: url(./images/desktop/image-graphic-design.jpg);
    background-size: cover;
 }
 .photography {
   color: hsl(198, 62%, 26%);
   height: 600px;
    max-height: 600px;
-   background: url(/images/desktop/image-photography.jpg);
+   background: url(./images/desktop/image-photography.jpg);
    background-size: cover;
 }
 
