@@ -1,0 +1,186 @@
+@import url(https://fonts.google.com/specimen/Barlow);
+@import url(https://fonts.google.com/specimen/Fraunces);
+* {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow";
+}
+
+
+.collapse ul li a {
+  color: white !important;
+  z-index: 1;
+}
+.navbar-toggler .navbar-toggler-icon {
+  border-color: rgb(255, 102, 203) !important;
+}
+#navbar .navbar-nav li a:hover {
+  border-radius: 25px;
+  background-color: white;
+  color: black !important;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition-delay: 0.1s;
+}
+.show {
+  margin: 0 auto;
+  text-align: center;
+
+  background-color: white;
+  margin-top: 8px;
+  padding: 17px;
+  z-index: 11;
+}
+.show .navbar-nav li a {
+  color: grey !important;
+}
+.show .navbar-nav li a:hover {
+  width: 150px;
+  background-color: hsl(51, 100%, 49%) !important;
+  margin: 0% auto;
+  border-radius: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.header {
+  position: absolute;
+  inset: 17%;
+  letter-spacing: 8px;
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+.svg {
+   position: absolute;
+   top: 15%;
+}
+.container-fluid {
+  width: 79% !important;
+}
+
+/* Links */
+.transform-link,.stand-out-link {
+  height: 60px;
+  font-family: "Fraunces";
+}
+.transform-link a{
+  height: 100%;
+  overflow-y: hidden;
+  
+  
+  border-bottom: hsl(51, 100%, 49%) solid 6px;
+}
+
+.stand-out-link a{
+  height: 100%;
+  overflow-y: hidden;
+  border-bottom: hsl(7, 99%, 70%)solid 6px;
+}
+
+
+.col-lg-6,.col-md-6,.col-lg-4,.col-lg-3 {
+  padding: 0% !important;
+  
+}
+ .img-fluid {
+   width: 100%;
+ }
+
+ .display-4 {
+    font-family: "Barlow" !important;
+   font-weight: 900 !important;
+ }
+ .graphic-design {
+  color: hsl(167, 40%, 24%) !important;
+   height: 600px;
+   max-height: 600px;
+   background: url(/images/desktop/image-graphic-design.jpg);
+   background-size: cover;
+}
+.photography {
+  color: hsl(198, 62%, 26%);
+  height: 600px;
+   max-height: 600px;
+   background: url(/images/desktop/image-photography.jpg);
+   background-size: cover;
+}
+
+.client-testimonails {
+  letter-spacing: 8px;
+  top: 85px;
+}
+.col-lg-4,.col-md-4 {
+  margin-top: 111px;
+}
+.col-lg-4 p {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(167, 40%, 24%);
+}
+.testimonials img {
+ 
+  border-radius: 50% !important;
+}
+.testimonials-text {
+  text-align: center;
+  width: 75%;
+}
+
+footer {
+  background-color: hsl(168, 34%, 41%);
+}
+.sunny {
+  font-family: 'Fraunces' !important;
+ 
+  color: hsl(212, 27%, 19%) !important;
+}
+.list li a {
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
+  font-size: 18px;
+}
+@media only screen and (max-width: 1000px) {
+.container-fluid {
+  width: 100% !important;
+}  
+}
+@media only screen and (max-width:767px) {
+ 
+   .col-md-4 p {
+     padding-top: 0rem !important;
+     padding-bottom: 0rem !important;
+
+   }
+  .testimonials div:nth-child(2){
+        padding-bottom: 0rem !important;
+
+  }
+  .testimonials div:nth-child(3),.testimonials div:nth-child(4){
+    margin-top: 0px ;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  
+}
+
+@media only screen and (max-width:575px){
+  .image-header {
+    height: 100vh;
+  }
+  .header-bg-image {
+    height: 100% !important;
+  }
+.col-lg-6{
+  text-align: center;
+}
+.graphic-design,.photography {
+  background-position: center;
+}
+}
+@media only screen and (max-width:265px){
+.list .px-4 {
+  padding: 0px 10px 0 10px !important;
+}
+}
